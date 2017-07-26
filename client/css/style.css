@@ -165,3 +165,31 @@ text-transform: uppercase;
 .about-iphone img {
   margin-top: 8px
 }
+
+.choose-us-title {
+  padding-bottom: 50px;
+}
+
+.choose-us-title h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+  position: relative;
+}
+
+.choose-us-title h2:after {
+  content:"";
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  width: 70px;
+  height: 1px;
+  background-color: #129CF3;
+}
+
+.choose-us-title p {
+margin-top: 40px;
+font-size: 19px;
+line-height: 24px;
+}
