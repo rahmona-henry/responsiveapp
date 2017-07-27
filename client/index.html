@@ -5,8 +5,7 @@
   <title>Loso - Simple, Clean and Responsive Website </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--JQuery-->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
 
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500i,600,600i,700,700i,800,900" rel="stylesheet">
@@ -21,6 +20,11 @@
 
   <!--Favicon-->
   <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!--JQuery-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
 </head>
 
 <body>
@@ -149,24 +153,62 @@
       <div class="row">
         <div class="col-md-12">
 
-            <div class="carousel slide" data-ride="carousel">
+            <div id= "carousel-testimonial" class="carousel slide" data-ride="carousel">
+
+                <!--indicators-->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
+                  <li data-target="carousel-testimonial" data-slide-to="1"></li>
+                  <li data-target="#carousel-testimonial" data-slide-to="2"></li>
+                </ol>
+                <!-- wrapper for slides -->
+                <div class="carousel-inner">
+
+                  <!--item 01 -->
+
+                  <div class="item active text-center">
+                    <img src="images/client-01.jpg" alt="testimonial" class="center-block">
+
+                  <div class"testimonial-caption">
+                    <h2>Rahmona Henry</h2>
+                    <h4><span>Chief Grumpy Crumpet, </span>Henry Criffiths</h4>
+                    <p>Nullam phasellus commodo habitant mus elit erat suspendisse mi torquent aliquam amet eros dignissim euismod porta morbi himenaeos facilisi parturient. Suscipit nec est integer malesuada consectetur facilisis a cursus ornare torquent per eu a quam suspendisse elementum adipiscing.</p>
+                  </div>
+                  </div>
+
+                  <!--item 02 -->
+
+                  <div class="item text-center">
+                    <img src="images/client-02.jpg" alt="testimonial" class="center-block">
+
+                  <div class"testimonial-caption">
+                    <h2>Jim Griffiths</h2>
+                    <h4><span>Chief Creative Engineer Engineer,</span>Griffiths Henry/h4>
+                    <p>Nullam phasellus commodo habitant mus elit erat suspendisse mi torquent aliquam amet eros dignissim euismod porta morbi himenaeos facilisi parturient. Suscipit nec est integer malesuada consectetur facilisis a cursus ornare torquent per eu a quam suspendisse elementum adipiscing.</p>
+                  </div>
+                  </div>
+
+                  <!--item 03 -->
+
+                  <div class="item text-center">
+                    <img src="images/client-03.jpg" alt="testimonial" class="center-block">
+
+                  <div class"testimonial-caption">
+                    <h2>Cara Rooney</h2>
+                    <h4><span>Chief Mischief Maker,</span>Rooney Henry</h4>
+                    <p>Nullam phasellus commodo habitant mus elit erat suspendisse mi torquent aliquam amet eros dignissim euismod porta morbi himenaeos facilisi parturient. Suscipit nec est integer malesuada consectetur facilisis a cursus ornare torquent per eu a quam suspendisse elementum adipiscing.</p>
+                  </div>
+                  </div>
+
+
+                </div>
+
          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
 
 <script src='app.js'></script>
 </body>
