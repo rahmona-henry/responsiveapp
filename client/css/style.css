@@ -390,9 +390,19 @@ font-size: 15px;
 .btn-purchase-now:visited {
   background-color: #129CF3;
   border: 1px solid #129CF3;
-  COLOR: #fff;
+  color: #fff;
   border-radius: 3px;
   padding: 15px 35px;
   text-transform: uppercase;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.btn-purchase-now:hover {
+  background-color: #1274B1;
+  border-color: #316B90
+
 
 }
