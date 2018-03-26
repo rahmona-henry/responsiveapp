@@ -407,4 +407,35 @@ font-size: 15px;
 
 }
 
-/*  */
+/* Counter */
+.counter {
+  background-image: url("../images/counter-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: 50% 50%;
+}
+
+.counter-overlay {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background:rgba(0,0,0,.4);
+}
+
+.counter-item i {
+  color:#129CF3;
+  font-size:60px;
+}
+
+.counter-item h2 {
+  color:#D7DADB;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size; 35px;
+  margin-top: 15px;
+  margin-botton: 1px;
+
+}
