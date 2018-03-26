@@ -431,6 +431,7 @@ font-size: 15px;
 }
 
 .counter-item h2 {
+  font-family: "Source Sans Pro", sans-serif;
   color:#D7DADB;
   font-weight: 700;
   text-transform: uppercase;
@@ -438,4 +439,13 @@ font-size: 15px;
   margin-top: 15px;
   margin-botton: 1px;
 
+}
+
+.counter-item p {
+  color: #D7DADB;
+  font-size: 20px;
+  margin-top: 0px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
 }
