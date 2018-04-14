@@ -583,7 +583,7 @@ padding-top: 75px;
 .submit-btn:hover {
   background: #129CF3;
   color: #fff;
-  border-color:#129CF3;S
+  border-color:#129CF3;
 }
 
 .social-icons {
@@ -603,29 +603,30 @@ display: inline;
 padding-left: 10px;
 }
 
-.social-icons ul li a i {
+.social-icons ul li a {
   text-decoration: none;
-  display: inline-block;
   text-align: center;
+  display: inline-block;
   border: 1px solid #9D9D9D;
   border-radius: 3px;
   width: 45px;
   height: 45px;
-  line-height: 49px;
+  padding-top:10px;
+  line-height:49px;
   color: #9D9D9D;
   transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
   -webkit-transition: all 1s;
 
+
 }
 
 .social-icons ul li a:hover {
   background-color: #129CF3;
-  border: 1px solid#129CF3;
+  border: 1px solid #129CF3;
   color: #fff;
 }
-
 .social-icons ul li a i {
   font-size: 20px;
 
